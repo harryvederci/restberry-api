@@ -1,5 +1,5 @@
-# RESTberry-prime
-A RESTful service that calculates prime numbers and more, which you can run on 
+# RESTberry-(a)pi
+A RESTful service that calculates prime numbers and more, which you can run on
 your Raspberry Pi.
 
 ## Scripts (Linux / Unix)
