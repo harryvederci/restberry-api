@@ -1,0 +1,23 @@
+ext {
+    springBootVersion = '2.2.4.RELEASE'
+    jUnitJupiterVersion = '5.6.0'
+    log4jVersion = '2.12.1'
+    libraries = [:]
+}
+
+// Spring Boot
+libraries.plugin_spring_boot_gradle = 'org.springframework.boot:spring-boot-gradle-plugin:' + springBootVersion
+libraries.spring_boot_starter_web = 'org.springframework.boot:spring-boot-starter-web:' + springBootVersion
+libraries.spring_boot_starter_security = 'org.springframework.boot:spring-boot-starter-security:' + springBootVersion
+libraries.spring_boot_configuration_processor = 'org.springframework.boot:spring-boot-configuration-processor:' + springBootVersion
+libraries.test_spring_boot_starter = 'org.springframework.boot:spring-boot-starter-test:' + springBootVersion
+
+// Logger SLF4J
+libraries.slf4j = 'org.slf4j:log4j-over-slf4j:1.7.30'
+
+// Lombok
+libraries.lombok = 'org.projectlombok:lombok:1.18.12'
+
+// J-Unit Jupiter
+libraries.test_jupiter_api = 'org.junit.jupiter:junit-jupiter-api:' + jUnitJupiterVersion
+libraries.test_jupiter_engine = 'org.junit.jupiter:junit-jupiter-engine:' + jUnitJupiterVersion

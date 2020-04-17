@@ -1,0 +1,4 @@
+rootProject.name = 'restberry'
+
+include 'shared'
+include 'algorithm-service'

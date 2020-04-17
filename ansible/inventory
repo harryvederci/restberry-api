@@ -1,0 +1,5 @@
+[build]
+localhost                ansible_connection=local
+
+[prod]
+algorithm-service        ansible_connection=ssh
