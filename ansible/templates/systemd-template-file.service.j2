@@ -1,9 +1,0 @@
-[Unit]
-Description=A Spring Boot algorithm service by Harry Prins
-After=syslog.target
-
-[Service]
-ExecStart=/usr/bin/java -jar {{ app_dest_file_dir }}/{{ app_jar_name }}
-
-[Install]
-WantedBy=multi-user.target
